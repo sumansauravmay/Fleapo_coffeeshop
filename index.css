@@ -330,7 +330,6 @@
   padding: 0px 127px 157px 126px;
   gap: 0px;
   opacity: 0px;
-  border: 1px solid blue;
 }
 .offer {
   position: relative;
@@ -338,13 +337,12 @@
   height: 451px;
   top: -24px;
   /* left: 126px; */
-  border: 1px solid green;
 }
 .text {
   width: 114px;
   height: 94px;
   position: absolute;
-  top: 14px;
+  top: -104px;
   left: 67px;
   font-family: Dancing Script;
   font-size: 56px;
@@ -353,42 +351,240 @@
   text-align: left;
   color: rgba(248, 228, 190, 1);
 }
-.offerframe{
-    width: 1175px;
-height: 378px;
-top: 67px;
-left: 6px;
-gap: 0px;
-border-radius: 35px 0px 0px 0px;
-opacity: 0px;
-background: rgba(173, 113, 74, 0.35);
+.offerframe {
+  width: 1175px;
+  height: 378px;
+  top: 67px;
+  left: 6px;
+  gap: 0px;
+  border-radius: 35px 0px 0px 0px;
+  opacity: 0px;
+  background: #54372b;
 }
-.frame5{
-width: 187px;
-height: 55px;
-position: relative;
-top: 290px;
-left: 61px;
+.frame5 {
+  width: 187px;
+  height: 55px;
+  position: relative;
+  top: 150px;
+  left: 61px;
+  border-radius: 49px;
+  border: 2px solid #e0a872;
+  padding: 12px, 36px, 12px, 36px;
+  background: #886c58;
+}
+.shopbtn {
+  width: 115px;
+  height: 31px;
+  font-family: Leiko;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30.72px;
+  color: rgba(248, 228, 190, 1);
+  margin: 10px auto auto auto;
+}
+.upto {
+  width: 250px;
+  height: 105px;
+  position: relative;
+  top: 35px;
+  left: 61px;
+  font-family: Leiko;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 69.92px;
+  text-align: left;
+  color: rgba(248, 228, 190, 1);
+}
+.upto span {
+  font-family: Leiko;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 104.88px;
+  text-align: left;
+}
+.cafeoffer {
+  width: 619px;
+  height: 118px;
+  position: absolute;
+  top: 140px;
+  left: 61px;
+  font-family: Leiko;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39.33px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.imgchoco {
+  width: 366.17px;
+  height: 336px;
+  top: 21px;
+  left: 771px;
+}
+.imgchoco2 {
+  width: 362px;
+  height: 332.18px;
+  position: absolute;
+  top: 23px;
+  left: 771px;
+}
+.section5 {
+  height: 640px;
+  position: static;
+  top: 2898px;
+}
+.reserve {
+  width: 357px;
+  height: 17px;
+  position: relative;
+  left: 541px;
+  top: -85px;
+  font-family: Dancing Script;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: center;
+  color: rgba(248, 228, 190, 1);
+}
+.reservetable {
+  height: 581px;
+  position: relative;
+  top: -59px;
+  bottom: 50px;
+  background: #54372b;
+  border: 1px solid black;
+}
+.coffeeimg {
+  width: 429.2px;
+  height: 472.35px;
+  position: relative;
+  top: 54px;
+  left: 115px;
+}
+.form {
+  width: 540px;
+  height: 410px;
+  position: absolute;
+  top: 86px;
+  left: 771px;
+  gap: 34px;
+}
+.date {
+  width: Fill (540px) px;
+  height: Fixed (54px) px;
+  padding: 14px 24px 14px 12px;
+  gap: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 1);
+}
+.dateimgdiv {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.dateimgdiv i {
+  width: 18px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+  left: 3px;
+  color: #54372b;
+  font-size: 20px;
+}
+.datetext {
+  width: 46px;
+  height: 27px;
+  font-family: Leiko;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-align: left;
+  color: rgba(157, 135, 129, 1);
+  margin-top: -3px;
+}
+.timeandguest {
+  width: 540px;
+  height: 55px;
+  margin-top: 20px;
+  gap: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.time {
+  width: 251.5px;
+  padding: 14px 24px 14px 12px;
+  gap: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 1);
+}
+.name {
+  width: Fill (540px) px;
+  height: Hug (55px) px;
+  gap: 37px;
+}
+.nameimgdiv {
+  padding: 14px 24px 14px 12px;
+  gap: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+  display: flex;
+}
+.nameimgdiv i {
+  width: 24px;
+  height: 24px;
+  color: #54372b;
+  font-size: 30px;
+}
+.nametext {
+  width: 105px;
+  margin: auto auto auto 5px;
+}
+.email {
+  width: 540px;
+  height: 55px;
+  gap: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.emaildiv {
+  width: 322px;
+  height: 50%;
+  border: 1px solid black;
+}
+.emaildiv i {
+  width: 24px;
+  height: 24px;
+  color: rgba(157, 135, 129, 1);
+}
+.emailtext {
+  width: 104px;
+}
+.emailtext {
+  width: 104px;
+  height: 27px;
+  margin: -25px auto auto 40px;
+}
+.reservediv{
+width: 198px;
+padding: 14px 24px 14px 12px;
+gap: 12px;
 border-radius: 49px;
-border: 2px solid #E0A872;
-padding: 12px, 36px, 12px, 36px;
-background: #886C58;
+background: rgba(247, 225, 188, 0.1);
 }
-.shopbtn{
-width: 115px;
+.reservetext{
+width: 88px;
 height: 31px;
 font-family: Leiko;
 font-size: 24px;
 font-weight: 400;
 line-height: 30.72px;
+text-align: left;
 color: rgba(248, 228, 190, 1);
-margin: 10px auto auto auto;
-/* margin-left: 20px;
-text-align: center; */
+margin: auto auto 20px 40px;
 }
-
-
-
 /* @media all and (min-width: 768px) and (max-width: 1023px) {
   .section2 {
     width: 100%;
