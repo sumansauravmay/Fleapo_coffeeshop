@@ -20,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   padding: 0px, 34px, 0px, 34px;
-  /* border: 1px solid yellowgreen; */
 }
 .logo {
   width: 72px;
@@ -31,7 +30,6 @@
   height: 24px;
   margin-top: 23px; /*not given in the figma*/
   gap: 7px;
-  /* border: 1px solid brown; */
 }
 .menu {
   width: 618px;
@@ -39,7 +37,6 @@
   display: flex;
   justify-content: space-between;
   padding: 30px, 0px, 30px, 30px;
-  /* border: 1px solid blue; */
 }
 .hover {
   width: 86px;
@@ -111,10 +108,9 @@
 
 .section2 {
   position: static;
-  width: 1440px;
+  /* width: 1440px; */
   height: 584px;
   top: 1081px;
-  border: 1px solid blue;
 }
 .ourstory {
   width: 1187px;
@@ -122,13 +118,10 @@
   position: relative;
   top: 53px;
   left: 126px;
-  border: 1px solid green;
-  /* margin: 53px auto auto auto; */
 }
 .bigframe {
   width: 1187px;
   height: 451px;
-  border: 1px solid red;
 }
 .storyimg {
   position: absolute;
@@ -136,8 +129,6 @@
   height: 454px;
   top: 12px;
   left: -12px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .circle1 {
@@ -146,8 +137,6 @@
   height: 16px;
   top: 484px;
   left: 612px;
-  gap: 0px;
-  opacity: 0px;
   background: #744f40;
   border-radius: 15px;
 }
@@ -157,8 +146,6 @@
   height: 16px;
   top: 484px;
   left: 587px;
-  gap: 0px;
-  opacity: 0px;
   background: #744f40;
   border-radius: 15px;
 }
@@ -179,8 +166,6 @@
   height: 113px;
   left: 908px;
   bottom: 325px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Dancing Script;
   font-size: 54px;
   font-weight: 700;
@@ -194,25 +179,251 @@
   height: 378px;
   top: 67px;
   left: 6px;
-  gap: 0px;
   border-radius: 35px;
-  opacity: 0px;
   background: #ad714a59;
 }
 .border {
   width: 1187px;
   height: 390px;
   top: 61px;
-  gap: 0px;
   border-radius: 35px 0px 0px 0px;
   border: 1px 0px 0px 2px;
-  opacity: 0px;
   border-width: 1px, 0px, 0px, 2px;
   border-style: solid;
   border-image-source: radial-gradient(
-      81.91% 191.89% at 2.52% 0%,
-      #a8715c 0%,
-      #54362a 27.56%,
-      rgba(34, 21, 24, 0) 87.59%
-    )
+    81.91% 191.89% at 2.52% 0%,
+    #a8715c 0%,
+    #54362a 27.56%,
+    rgba(34, 21, 24, 0) 87.59%
+  );
 }
+.more {
+  position: absolute;
+  width: 50px;
+  height: 27px;
+  top: 303px;
+  left: 1067px;
+  border: 0.5px 0px 0px 0px;
+  font-family: Leiko;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justified;
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  width: 592px;
+  height: 241px;
+  top: 48px;
+  left: 535px;
+  font-family: Leiko;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39.33px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.section3 {
+  position: static;
+  height: 584px;
+  top: 1718px;
+  padding: 67px 133px 151px 132px;
+  gap: 0px;
+  opacity: 0px;
+}
+.sercive {
+  position: relative;
+  width: 189px;
+  height: 77px;
+  top: 67px;
+  left: 500px;
+  font-family: Dancing Script;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+  background: linear-gradient(
+    262.07deg,
+    #f8e4be 14.64%,
+    #fff3e0 40.26%,
+    #fff8e8 62%,
+    #dfc39d 93.82%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.serviceicon {
+  position: relative;
+  width: (1, 175px);
+  height: 225px;
+  top: 80px;
+  /* left: 132px; */
+  display: flex;
+  justify-content: space-between;
+}
+.eq {
+  width: 170px;
+  padding: 40px 0px 0px 0px;
+  border-radius: 35px;
+  /* display: flex; */
+  justify-content: space-between;
+  background: rgba(84, 55, 42, 1);
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  width: 107px;
+  height: 107px;
+  padding: 1px 16.47px 0.84px 17px;
+}
+.equipment {
+  width: 82px;
+  height: 20px;
+  font-family: Leiko;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.48px;
+  margin-left: 39px;
+  color: rgba(248, 228, 190, 1);
+}
+.tc {
+  width: 170px;
+  padding: 40px 0px 0px 0px;
+  border-radius: 35px;
+  justify-content: space-between;
+  background: rgba(84, 55, 43, 1);
+}
+.typecoffee {
+  width: 112px;
+  height: 20px;
+  border: 0.5px 0px 0px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.48px;
+  margin-left: 25px;
+  color: rgba(248, 228, 190, 1);
+}
+.icon1 i {
+  position: relative;
+  width: 102px;
+  height: 54.23px;
+  top: 26px;
+  left: 26px;
+  font-size: 60px;
+  color: #f8e4be;
+}
+.section4 {
+  height: 584px;
+  top: 2323px;
+  padding: 0px 127px 157px 126px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid blue;
+}
+.offer {
+  position: relative;
+  width: 1187px;
+  height: 451px;
+  top: -24px;
+  /* left: 126px; */
+  border: 1px solid green;
+}
+.text {
+  width: 114px;
+  height: 94px;
+  position: absolute;
+  top: 14px;
+  left: 67px;
+  font-family: Dancing Script;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 94.08px;
+  text-align: left;
+  color: rgba(248, 228, 190, 1);
+}
+.offerframe{
+    width: 1175px;
+height: 378px;
+top: 67px;
+left: 6px;
+gap: 0px;
+border-radius: 35px 0px 0px 0px;
+opacity: 0px;
+background: rgba(173, 113, 74, 0.35);
+}
+.frame5{
+width: 187px;
+height: 55px;
+position: relative;
+top: 290px;
+left: 61px;
+border-radius: 49px;
+border: 2px solid #E0A872;
+padding: 12px, 36px, 12px, 36px;
+background: #886C58;
+}
+.shopbtn{
+width: 115px;
+height: 31px;
+font-family: Leiko;
+font-size: 24px;
+font-weight: 400;
+line-height: 30.72px;
+color: rgba(248, 228, 190, 1);
+margin: 10px auto auto auto;
+/* margin-left: 20px;
+text-align: center; */
+}
+
+
+
+/* @media all and (min-width: 768px) and (max-width: 1023px) {
+  .section2 {
+    width: 100%;
+  }
+  .ourstory {
+    width: 90%;
+    height: 500px;
+  }
+  .bigframe {
+    width: 90%;
+  }
+  .storyimg {
+    width: 352px;
+    height: 404px;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .section2 {
+    width: 90%;
+  }
+  .ourstory {
+    width: 80%;
+    height: 500px;
+  }
+  .bigframe {
+    width: 80%;
+  }
+  .storyimg {
+    width: 400px;
+    height: 404px;
+  }
+  .content {
+    width: 80%;
+    height: 241px;
+    font-size: 16px;
+    line-height: 30.33px;
+  }
+} */
